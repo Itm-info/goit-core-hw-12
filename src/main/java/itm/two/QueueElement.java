@@ -10,7 +10,6 @@ public class QueueElement {
      * 4 - found to be either fizzy or buzzy
      * 8 - checked for fizzbuzziness
      * 16 - printed out
-     * 32 - printing ready
      */
     public byte flags = 0;
 
