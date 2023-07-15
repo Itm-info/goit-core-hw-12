@@ -83,6 +83,7 @@ public class FourThreadsPlusMain {
                                 .forEach(e -> {
                                     number(e.forOutput + "(" +e.i + "), ");
                                     e.flags |= 16;
+                                    //queue.remove(e);
                                 });
                     }
                     try { Thread.currentThread().wait(); } catch (InterruptedException e) { new RuntimeException(e); }
